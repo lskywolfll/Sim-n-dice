@@ -84,6 +84,10 @@
       .hide {
         display: none;
       }
+
+      *{
+          font-family: Arial, Helvetica, sans-serif;
+      }
     </style>
   </head>
   <body>
@@ -92,8 +96,9 @@
       <div id="violeta" class="color violeta right" data-color="violeta"></div>
       <div id="naranja" class="color naranja left" data-color="naranja"></div>
       <div id="verde" class="color verde right" data-color="verde"></div>
-      <button id="btnEmpezar" class="btn-start">Empezar a jugar!</button>
+      <button id="btnEmpezar" onclick="empezarJuego()" class="btn-start">Empezar a jugar!</button>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <script src="Juego.js"></script>
   </body>
 </html>
